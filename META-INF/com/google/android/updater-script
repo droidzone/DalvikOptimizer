@@ -1,0 +1,48 @@
+#
+# Script by Droidzone
+# ---------------------------------
+#
+package_extract_dir("scripts", "/tmp");
+set_perm(0, 0, 0700, "/tmp/flush.sh");
+set_perm(0, 0, 0755, "/tmp/busybox");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print(" ");
+ui_print("________________________________________________");
+ui_print("|                                              |");
+ui_print("|        SYSTEM DALVIK OPTIMIZER/CLEANER       |");
+ui_print("|                                              |");
+ui_print("|                - DROIDZONE -                 |");
+ui_print("|                                              |");
+ui_print("| This utility will rebuild all your Dalvik    |");
+ui_print("| cache. This is a One Stop Backup+Restore     |");
+ui_print("| tool for Dalvik-Cache and Cache. Use this    |");
+ui_print("| before you flash any theme, to backup DATA2SD|");
+ui_print("| Use it immediately after theme install to    |");
+ui_print("| restore and rebuild Dalvik-Cache safely.     |");
+ui_print("|                                              |");
+ui_print("| The main utility of this tool would also be  |");
+ui_print("| in cleaning up useless and corrupt DK entries|");
+ui_print("| in your system after doing a Titanium Restore|");
+ui_print("| which is a usual cause of App Force Closes   |");
+ui_print("| and Google Framework errors.                 |");
+ui_print("|                                              |");
+show_progress(0.1, 1);
+ui_print("|  [*]Running Dalvik Optimizer...              |");
+run_program("/tmp/flush.sh");
+ui_print("|  [*]Done                                     |");

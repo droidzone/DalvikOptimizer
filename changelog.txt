@@ -1,0 +1,14 @@
+===========================
+Changelog for SuperNova XD
+=========================== 
+[All dates are dd/mm/yy]
+
+[x] v0.1 - Iniitial Build
+
+System Dalvik and Cache Optimizer
+================================
+
+
+
+-Droidzone
+
