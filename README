@@ -1,0 +1,5 @@
+# Initial Build
+# DalvikOptimizer is a flashable zip through recovery
+# It clears existing dexes (except those in $BOOTCLASSPATH
+#  - Current Edition is GB specific for Sense 1.9
+
